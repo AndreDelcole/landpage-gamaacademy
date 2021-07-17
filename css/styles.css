@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.background-section-one{
+    background-image: url(../assets/bg3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-section-two{
+    background-image: url(../assets/bg4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-container{
+    background: #fff;
+    border-radius: 50px;
+    padding: 100px;
+    max-width: 450px;
+    float: left;
+}
+
+.conteudo div{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.conteudo h3{
+    color: cornsilk;
+    text-align: center;
+    font-size: 50px;
+}
+
+.conteudo p{
+    color: cornsilk;
+    text-align: center;
+    font-size: 35px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border: 0;
+    border: solid;
+    border-color: darkgrey;
+    border-width: 1px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);
+    padding: 8px 10px;
+    /*background: #000;*/
+    color: #000;
+}
+
+form{
+    display: grid;
+}
+
+footer{
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+    background-color: #1560BD;
+    color: #fff;
+}
+
+footer div{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    align-items: center;
+}   
+
