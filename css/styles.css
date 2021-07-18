@@ -23,7 +23,7 @@ html {
 }
 
 .background-section-one{
-    background-image: url(../assets/bg3.jpg);
+    background-image: url(../assets/bg5.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,7 +88,8 @@ footer{
     height: 150px;
     padding: 25px;
     text-align: center;
-    background-color: #1560BD;
+    background-image: url(../assets/bg6.jpg);
+    /*background-color: #1560BD;*/
     color: #fff;
 }
 
